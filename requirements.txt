@@ -1,0 +1,12 @@
+# Runtime dependencies. Keep this list as short as possible.
+# The generator itself needs nothing beyond the standard library.
+
+# Testing
+pytest>=8.0
+
+# Local inference (extraction and the model-backed baselines)
+ollama>=0.3
+
+# Retrieval baseline and embedding arithmetic
+# Only import numpy where it is actually used; the generator must not need it.
+numpy>=1.26

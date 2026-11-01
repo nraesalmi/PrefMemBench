@@ -1,0 +1,40 @@
+PrefMemBench
+============
+
+A preference memory benchmark.
+
+Copyright 2026 the PrefMemBench authors
+
+Licensed under the Apache License, Version 2.0 (the "License");
+see the LICENSE file for the full text.
+
+
+Third-party data
+----------------
+
+memproj/data/recipes_hummus.json is derived from HUMMUS, a linked recipe
+dataset released for research use.
+
+    "HUMMUS: A Linked, Healthiness-Aware, User-centered and
+    Argument-Enabling Recipe Data Set for Recommendation."
+    RecSys 2023.  https://doi.org/10.1145/3604915.3609491
+    Source: https://gitlab.com/felix134/connected-recipe-data-set
+
+The underlying recipe records were crawled from food.com and, per the
+HUMMUS documentation, may be used for educational or scientific purposes
+only. Commercial use is not granted by this repository.
+
+This repository does NOT redistribute the HUMMUS source table. It ships
+only a derived selection of 155 recipes (memproj/data/recipes_hummus.json)
+used as a benchmark fixture -- recipe identifiers and ingredient lists
+together with attributes derived by memproj/recipes.py. To rebuild the
+catalogue from source, download the dataset from the URL above; the
+source files are not included here and must not be committed to this
+repository.
+
+The HUMMUS reference code is distributed under GPLv3. No HUMMUS code is
+included in this repository; this project only reads the dataset's tabular
+data. The Apache-2.0 license above applies to the code in this repository
+and does not alter the terms under which the underlying data may be used.
+
+If you use the recipe catalogue, cite HUMMUS alongside this benchmark.

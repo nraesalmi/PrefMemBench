@@ -1,0 +1,38 @@
+[
+  {
+    "id": "r01",
+    "name": "Lemon Rice Bowl",
+    "ingredients": ["rice", "lemon", "olive oil", "parsley"],
+    "tags": ["vegetarian"]
+  },
+  {
+    "id": "r02",
+    "name": "Mushroom Risotto",
+    "ingredients": ["rice", "mushroom", "parmesan", "butter"],
+    "tags": ["vegetarian"]
+  },
+  {
+    "id": "r03",
+    "name": "Chicken Traybake",
+    "ingredients": ["chicken breast", "potato", "thyme", "olive oil"],
+    "tags": []
+  },
+  {
+    "id": "r04",
+    "name": "Chilli Noodles",
+    "ingredients": ["noodles", "chilli", "sriracha", "soy sauce"],
+    "tags": ["vegetarian"]
+  },
+  {
+    "id": "r05",
+    "name": "Beef Stir-fry",
+    "ingredients": ["ground beef", "paprika", "rice", "broccoli"],
+    "tags": []
+  },
+  {
+    "id": "r06",
+    "name": "Peanut Noodles",
+    "ingredients": ["noodles", "peanut butter", "cucumber"],
+    "tags": ["vegetarian"]
+  }
+]

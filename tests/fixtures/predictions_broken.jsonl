@@ -1,0 +1,1 @@
+{"action": "recommend", "cited_turns": ["t0001"], "checkpoint_id": "p000_base_c0", "explanation": "Mild only, per your stated preference.", "latency_s": 3.41, "method": "proposed", "model": "qwen3:8b", "profile": {"spice_level": ["mild"]}, "question": "Which cuisine did you have in mind?", "recipe_id": "r02", "tokens": 812, "trajectory_id": "p000_base"}
